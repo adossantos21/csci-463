@@ -1,3 +1,9 @@
+"""
+File Name: error.popup.py
+Purpose: Displays error for incorrect screen transitions
+Author: Arteom Katkov
+Documented: 05/10/2024
+"""
 from PyQt5.QtWidgets import QDialogButtonBox, QVBoxLayout, QLabel, QDialog
 
 class ErrorPopup(QDialog):

@@ -1,3 +1,9 @@
+"""
+File Name: neural_net.py
+Purpose: Deprecated - For instantiating a Bart LLM and using it for summarization
+Author: Arteom Katkov
+Documented: 05/10/2024
+"""
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 from transformers import pipeline
 

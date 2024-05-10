@@ -1,3 +1,9 @@
+"""
+File Name: nn_compute_thread.py
+Purpose: Configures neural network forward propagation for GUI
+Author: Arteom Katkov
+Documented: 05/10/2024
+"""
 from loguru import logger as log
 from PyQt5 import QtCore
 
@@ -22,8 +28,8 @@ class NNComputeThread(QtCore.QThread):
             log.error(f"Error While Running Neural Net: {str(e)}")
             self.text_result.emit("???")
 
-    '''     
-    def run(self) -> None:
+    
+    def run_HF(self) -> None:
         try:
             length = len(str(self._text_array).split(" ", -1))
             if length > 220:# Should be 1024 but I'm not sure what the tokenizer splits on
@@ -46,7 +52,7 @@ class NNComputeThread(QtCore.QThread):
         except Exception as e:
             log.error(f"Error While Running Neural Net: {str(e)}")
             self.text_result.emit("???")
-    '''
+
             
     def setInputText(self, text: str) -> None:
         self._text_array = text

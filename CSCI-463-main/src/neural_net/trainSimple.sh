@@ -1,3 +1,8 @@
+#File Name: trainSimple.sh
+#Purpose: Executing a training and logging it correctly
+#Author: Alessandro Dos Santos
+#Documented: 05/10/2024
+
 if [ -z "$1" ]
 then
   echo "Error: You did not specify a model name for the training file's output directory. Please specify your model name. \nFor example: ./trainSimple.sh bart-large-cnn"

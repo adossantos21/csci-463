@@ -1,3 +1,9 @@
+"""
+File Name: input_file_dialog.py
+Purpose: Processes loaded input files for summarization
+Author: Arteom Katkov
+Documented: 05/10/2024
+"""
 import os
 import PyPDF2
 from typing import Optional, Union

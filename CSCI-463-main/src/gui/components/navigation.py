@@ -1,3 +1,9 @@
+"""
+File Name: navigation.py
+Purpose: Constrains action buttons in the GUI such as Back, Next, Open Input File, or Save Generated Output
+Author: Arteom Katkov
+Documented: 05/10/2024
+"""
 import enum
 
 from loguru import logger as log

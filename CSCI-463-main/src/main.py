@@ -1,13 +1,13 @@
 """
-File: main.py
-Description: Main application entrypoint
+File Name: main.py
+Purpose: Main application entrypoint
+Author: Arteom Katkov
 Date: 01/29/24
 """
 import sys
 
 from PyQt5.QtWidgets import QApplication
 
-#from neural_net.neural_net import NeuralNet
 from neural_net.scratch import NeuralNet
 from gui.gui_main import GUIApp
 

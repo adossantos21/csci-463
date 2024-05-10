@@ -1,3 +1,9 @@
+"""
+File Name: output_file_dialog.py
+Purpose: Constrains output file format and PDF export format
+Author: Arteom Katkov
+Documented: 05/10/2024
+"""
 import os
 import PyPDF2
 from typing import Optional, Union

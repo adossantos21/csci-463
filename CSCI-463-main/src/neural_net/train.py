@@ -1,3 +1,9 @@
+"""
+File Name: train.py
+Purpose: Deprecated - for training a small Bart LLM.
+Author: Arteom Katkov
+Documented: 05/10/2024
+"""
 import argparse
 import evaluate
 import numpy as np

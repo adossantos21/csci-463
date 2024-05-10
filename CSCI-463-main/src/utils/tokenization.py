@@ -1,6 +1,8 @@
 """
 File: tokenization.py
-Description: Supporting module to tokenize input text
+Purpose: Supporting module to tokenize input text
+Author: Arteom Katkov
+Documented: 05/10/2024
 """
 
 from transformers.tokenization_utils import PreTrainedTokenizer, BatchEncoding

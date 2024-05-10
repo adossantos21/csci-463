@@ -1,3 +1,9 @@
+"""
+File Name: scratch.py
+Purpose: For instantiating fine-tuned models, specifically the Llama-v2-7B LLM. Also for creating the summarization pipeline corresponding to this model.
+Author: Alessandro Dos Santos
+Documented: 05/10/2024
+"""
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 import torch
 from accelerate import (

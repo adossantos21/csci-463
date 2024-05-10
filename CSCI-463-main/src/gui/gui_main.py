@@ -1,3 +1,9 @@
+"""
+File Name: gui_main.py
+Purpose: Formats GUI
+Author: Arteom Katkov and Alessandro Dos Santos
+Documented: 05/10/2024
+"""
 import enum
 from loguru import logger as log
 from PyQt5.QtWidgets import QMainWindow, QTextEdit, QVBoxLayout, QWidget, QLabel, QComboBox, QPushButton, QTableWidget, QHeaderView, QTableWidgetItem
