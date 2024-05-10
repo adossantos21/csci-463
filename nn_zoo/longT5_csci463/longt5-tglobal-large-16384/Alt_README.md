@@ -7,20 +7,6 @@ Documented: 05/10/2024
 """
 
 """
-File Name: model.safetensors
-Purpose: Finetuned model weights for training or inference
-Author: Alessandro Dos Santos
-Documented: 05/10/2024
-"""
-
-"""
-File Name: pytorch_model.bin
-Purpose: Interprets LongT5 model to the PyTorch framework
-Author: Created by HuggingFace
-Documented: 05/10/2024
-"""
-
-"""
 File Name: special_tokens_map.json
 Purpose: Special tokens or characters to consider during tokenization
 Author: Created by HuggingFace
